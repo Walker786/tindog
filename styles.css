@@ -1,0 +1,182 @@
+
+#title{
+  background-color: #ff4c68;
+
+}
+h1{
+  font-family: font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+h2{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15% 2.5%;
+
+}
+#body{
+  font-family: Montserrat;
+}
+/* Navigation Bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+.nav-item{
+  padding: 0 18px;
+
+}
+.nav-link{
+    font-size: 1.5rem;
+    font-family: Montserrat;
+}
+/* Buttons */
+.download-btn{
+  margin: 10% 3% 10% 0;
+}
+/* Title image */
+.img-dog{
+  margin-left: 100px;
+  width: 21%;
+  transform: rotate(25deg);
+  position: absolute;
+
+}
+/* Features */
+.h3features{
+  font-size: 1.5rem;
+  font-family: Montserrat;
+  font-weight: bold;
+
+}
+.pfeatures{
+  color: #8f8f8f;
+}
+
+.fa-check-circle{
+  color:#ef8172;
+  font-size: 500%;
+
+}
+.fa-bullseye{
+  color: #ef8172;
+  font-size: 500%;
+}
+.fa-heart{
+    color: #ef8172;
+    font-size: 500%;
+}
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position:relative;
+  z-index: 1;
+}
+.feature-box{
+  text-align: center;
+padding:4.2%;
+}
+.icon{
+  margin-bottom:1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+/* Testimonials Section */
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;}
+  /* Press */
+  #press{
+      background-color: #ef8172;
+      text-align: center;
+      padding-bottom: 3%;
+  }
+  .press-logo{
+    width: 12%;
+    margin: 20px 20px 50px;
+  }
+  .carousel-item{
+  height: 32rem;
+    padding: 7% 15%;
+    text-align: center;
+  }
+  #pricing{
+    padding: 100px;
+    text-align: center;
+  }
+.pricing-column{
+  padding: 3% 2%;
+}
+@media (max-width:980px) {
+#title{
+  text-align: center;
+}
+  .img-dog{
+    position: static;
+    width:50%;
+    transform: rotate(0);
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+
+  }
+
+}
+
+
+/* cta */
+#cta{
+
+background-color:#ff4c68;
+padding: 7% 15%;
+}
+.h3-footer{
+  font-family: Montserrat;
+  font-weight: bold;
+  color: white;
+    font-size:3.5rem;
+    line-height: 1.5;
+  text-align: center;
+padding-top: 30px;
+
+}
+.btn-f{
+
+  text-align: center;
+
+}
+#footer{
+  text-align: center;
+  background-color: #fff;
+  padding-top: 90px;
+
+}
+#p-f{
+  padding-top: 20px;
+  color: grey;
+}
+.download-btn1{
+  margin: 2% 2%;
+}
